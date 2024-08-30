@@ -2,12 +2,6 @@
   "name": "membrane/laravel",
   "type": "library",
   "license": "MPL-2.0",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:sdorsazcp/membrane-core.git"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Membrane\\Laravel\\": "src/"
@@ -27,7 +21,7 @@
     "illuminate/support": "^9.0 || ^10.0 || ^11.0",
     "nyholm/psr7": "^1.8",
     "membrane/membrane": "dev-update-for-laravel-11",
-    "membrane/openapi-router": "^0.4.0",
+    "membrane/openapi-router": "dev-update-for-laravel-11",
     "symfony/psr-http-message-bridge": "^2.1"
   },
   "require-dev": {
